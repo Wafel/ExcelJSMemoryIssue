@@ -16,9 +16,8 @@ http://localhost:3000/no-memory-issue?rowsCount=500000&columnsCount=10&sheetsCou
 <br>Enables to trigger example process that would generate xlsx file with memory issue
 
 # Results
-Memory issue | No memory issue
------------- | -------------
-Max memory consumed: ~600MB | Max memory consumed: ~85MB 
-
+|Memory issue | No memory issue|
+|------------ | -------------|
+|Max memory consumed: ~600MB | Max memory consumed: ~85MB| 
 |![](docs/memory-issue.png)|![](docs/memory-no-issue.png)|
 |![](docs/code-issue.png)|![](docs/code-no-issue.png)|
